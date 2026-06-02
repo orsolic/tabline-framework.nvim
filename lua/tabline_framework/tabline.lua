@@ -214,7 +214,7 @@ function Tabline:render(render_func)
     make_bufs = function(callback, list) self:make_bufs(callback, list) end,
     close_tab_btn = function(arg) self:close_tab_btn(arg) end,
     add_btn = function(arg, callback) self:add_btn(arg, callback) end,
-    -- make_tab_bufs = function(callback) self:make_tab_bufs(callback) end,
+    make_tab_bufs = function(callback) self:make_tab_bufs(callback) end,
   })
 
   for _, item in ipairs(self.collector) do
