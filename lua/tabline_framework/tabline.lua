@@ -3,7 +3,6 @@ local Config = require'tabline_framework.config'
 local hi = require'tabline_framework.highlights'
 local functions = require'tabline_framework.functions'
 local Collector = require'tabline_framework.collector'
-local get_icon = require'nvim-web-devicons'.get_icon
 
 local Tabline = {}
 Tabline.__index = Tabline
